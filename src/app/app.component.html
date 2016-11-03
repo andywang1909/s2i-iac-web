@@ -1,0 +1,368 @@
+<div class='S2i'>
+  <article id="iacform" class="FormPage">
+    <h3 class="Offscreen-Text">Start of form.</h3>
+    <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacForm" name="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacForm" action="/sodp/s2i/S2I_IAC/WEB-INF/servlet/view" method="post" autocomplete="off">
+      <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacFormErrors" tabindex="-1" class="Errors Hide" aria-hidden="true">
+        <ul></ul>
+      </div>
+      <div class="Instructions" tabindex="0">
+        <h4 class="Offscreen-Text">Start of form instructions</h4>Follow the steps to complete your order. All questions are mandatory.</div>
+      <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacErrors" class="Errors Hide" tabindex="-1" aria-hidden="true"></div>
+      <section id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ1_fs" class="Section Question ">
+        <h4 class="Title">
+          <a href="#ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ1_fs">
+            <span id="s2iQ1index">1</span>. Select your health card type</a>
+          <span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ1_fs_ErrState" class="Offscreen-Text"></span>
+        </h4>
+        <div class="Detail">
+          <div class="Field">
+            <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__healthCard_Type" class="InputSet ">
+
+              <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__hctRW" class="Radio">
+                <input type="radio" [(ngModel)]="voIac.healthCard.type" value="RW" name="healthCardType" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__hctRW">
+                <!--
+                <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__hctRW" name="healthCardType" onchange="S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.healthCardTypeCheck()" value="RW" data-ga-evt="IAC Product Page|Radio Button Click|Red and white health card" type="radio">
+                //-->
+                <span class="Label">Red and white health card</span></label>
+
+
+              <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__hctPhoto" class="Radio">
+                <input type="radio" [(ngModel)]="voIac.healthCard.type" value="PHOTO" name="healthCardType" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__hctPhoto">
+                <!--
+                <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__hctPhoto" name="healthCardType" onchange="S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.healthCardTypeCheck()" value="PHOTO" data-ga-evt="IAC Product Page|Radio Button Click|Photo health card" type="radio">
+                //-->
+                <span class="Label">Photo health card</span></label>
+
+              <span id="iac_healthCardType_err" class="Error"></span>
+              <span id="iac__ns_Z7_A5TP4A6718BKC0A30KAS642OI5__healthCard_Type_err" class="Error"></span>
+            </div>
+            <a href="#ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardTypeLabel" class="Help" title="Select this link for help with selection of health card type" role="button" aria-controls="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardType" onclick="javascript:S2i.Lightbox.Show('ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardType', event); return false;">Help</a>
+          </div>
+        </div>
+      </section>
+      <span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__healthCardType_Error" class="Error"></span>
+      <section id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ2_fs" class="Section Question ">
+        <h4 class="Title">
+          <a href="#ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ2_fs"><span id="s2iQ2index">2</span>. Enter your health card information</a>
+          <span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ2_fs_ErrState" class="Offscreen-Text"></span>
+        </h4>
+        <div class="Detail">
+          <div class="Field">
+            <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__healthCardNumber">Health card number</label>
+
+            <input [(ngModel)]="voIac.healthCard.number" placeholder="healthCard" title="Enter your health card number" size="15" maxlength="10" type="text"/>
+            <!--
+            <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__healthCardNumber" name="healthCardNumber" title="Enter your health card number" onblur="S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.validateHealthCardNumber()" value="" size="15" maxlength="10" type="text">//--><span> </span>
+            <span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__healthCardNumber_err" class="Error"></span>
+            <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__healthCardVersionCode">Health card version code</label>
+            <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__healthCardVersionCode" name="healthCardVersionCode" title="Enter your health card version code" onblur="S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.validateHealthCardVersionCode()" value="" size="3" maxlength="2" type="text"><span> </span><span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__healthCardVersionCode_err" class="Error"></span>
+            <a href="#ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardInfoLabel" class="Help" title="Select this link for help with entry of health card information" role="button" aria-controls="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardInfo" onclick="javascript:S2i.Lightbox.Show('ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardInfo', event); return false;">Help</a>
+          </div>
+          <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__lastFourDigitDiv" class="Field" *ngIf="voIac.healthCard.type == 'PHOTO'">
+            <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__lastFourDigit">Last 4 digits of citizenship or immigration document number</label>
+            <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__lastFourDigit" name="lastFourDigit" title="Enter the last 4 digits of your citizenship or immigration document number" onblur="S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.validateLastFourDigit()" value="" size="6" maxlength="4" type="text"><span> </span><span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__lastFourDigit_err" class="Error"></span>
+          </div>
+          <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__lastPostalCodeMOHDiv" class="Field" *ngIf="voIac.healthCard.type == 'RW'">
+            <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__lastPostalCodeMOH">Last postal code reported to the Ministry of Health and Long-Term Care</label>
+            <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__lastPostalCodeMOH" name="lastPostalCodeMOH" title="Enter the last postal code you reported to the Ministry of Health and Long-Term Care" onblur="S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.validatePcMoh()" value="" size="9" maxlength="7" type="text"><span> </span><span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__lastPostalCodeMOH_err" class="Error"></span>
+          </div>
+        </div>
+      </section>
+      <section id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ3_fs" class="Section Question ">
+        <h4 class="Title"><a href="#ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ3_fs"><span id="s2iQ3index">3</span>. Do you want to change your address with the Ministry of Transportation?</a><span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ3_fs_ErrState" class="Offscreen-Text"></span></h4>
+        <div class="Detail">
+          <div class="Field">
+            <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__doMto" class="InputSet" aria-hidden="false">
+              <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__doMtoYes" class="Radio">
+
+                <input type="radio" [(ngModel)]="voIac.driverLicenceNeeded" name="doMto" value="Y" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__doMtoYes">
+                <!--
+                <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__doMtoYes" name="doMto" onchange="S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.doMtoCheck()" value="Y" data-ga-evt="IAC Product Page|Radio Button Click|MTO Yes" type="radio">
+                //-->
+                <span class="Label">Yes <span class="Offscreen-Text">, I want to change my address with the Ministry of Transportation</span></span>
+              </label>
+              <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__doMtoNo" class="Radio">
+                <input type="radio" [(ngModel)]="voIac.driverLicenceNeeded" name="doMto" value="N" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__doMtoNo">
+                <!--
+                <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__doMtoNo" name="doMto" onchange="S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.doMtoCheck()" value="N" data-ga-evt="IAC Product Page|Radio Button Click|MTO No" type="radio">
+                //-->
+                <span class="Label">No <span class="Offscreen-Text">, I do not want to change my address with the Ministry of Transportation</span></span>
+              </label>
+              <span id="iac_doMto_err" class="Error"></span>
+              <span id="iac__ns_Z7_A5TP4A6718BKC0A30KAS642OI5__doMto_err" class="Error"></span></div>
+          </div>
+        </div>
+      </section>
+      <section *ngIf="voIac.driverLicenceNeeded == 'Y'" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ4_fs" class="Section Question ">
+        <h4 class="Title">
+          <a href="#ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ4_fs"><span id="s2iQ4index">4</span>. Enter your driver’s licence or vehicle registration information</a>
+          <span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ4_fs_ErrState" class="Offscreen-Text"></span>
+        </h4>
+        <div class="Detail">
+          <div class="Field DLR">
+            <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__dlnInfo1">Driver's licence number</label>
+            <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__dlnInfo1" class="Small" maxlength="5" onblur="javascript:S2i.iac__DLN.checkDLN(1);" title="Enter the first 5 characters of your driver’s licence number" name="driverLicenceNumber.driverLicenceNumber1" type="text"> -
+            <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__dlnInfo2" class="Small" maxlength="5" onblur="javascript:S2i.iac__DLN.checkDLN(2);" title="Enter the middle 5 characters of your driver’s licence number" name="driverLicenceNumber.driverLicenceNumber2" type="tel"> -
+            <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__dlnInfo3" class="Small" maxlength="5" onblur="javascript:S2i.iac__DLN.checkDLN(3);" title="Enter the last 5 characters of your driver’s licence number" name="driverLicenceNumber.driverLicenceNumber3" type="tel">
+            <span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__dlnInfo_err" class="Error"></span>
+            <a href="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpDlnLabel" class="Help" onclick="javascript:S2i.Lightbox.Show('ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpDln', event); return false;" aria-controls="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__dlnInfoHelp" title="Select this link for help with entry of driver information">Help</a>
+          </div>
+          <div class="Field">
+            <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__driverLicenceIssueDate">Driver’s licence issue date</label>
+            <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__driverLicenceIssueDate" name="driverLicenceIssueDate" class="IssueDate hasDatepicker" title="Select your driver’s licence issue date, or enter the issue date in the format YYYY/MM/DD" value="" size="15" maxlength="10" type="text"><span> </span>
+            <span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__driverLicenceIssueDate_err" class="Error"></span>
+            <br>
+          </div>
+          <div tabindex="0" class="OrLabel"><strong>or</strong>
+          </div>
+          <div class="Field">
+            <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__rin">Registrant identification number (RIN)</label>
+            <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__rin" name="rin" title="Enter your registrant identification number" onblur="S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.validateRin()" value="" size="12" maxlength="9" type="text"><span> </span><span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__rin_err" class="Error"></span>
+            <br>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="Field">
+            <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__lastPostalCodeMTO">Last postal code reported to the Ministry of Transportation</label>
+            <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__lastPostalCodeMTO" name="lastPostalCodeMTO" title="Enter the last postal code you reported to the Ministry of Transportation" onblur="S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.validatePcMto()" value="" size="9" maxlength="7" type="text"><span> </span><span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__lastPostalCodeMTO_err" class="Error"></span>
+          </div>
+        </div>
+      </section>
+      <section *ngIf="voIac.verified != 'YYYYY'" class="Navigation" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__navVerifySection">
+        <div class="Buttons">
+          <div class="Submit">
+            
+            <button (click)="verify()" class="Primary s2iNavigateAway" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacVerify" title="Click to verify your information with the Ministry of Health and Long-Term Care and the Ministry of Transportation">Verify
+            </button>
+            <!--
+            <button class="Primary s2iNavigateAway" type="submit" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacVerify" onclick="javascript:S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.actionSubmit(event, 'verify');return false;" title="Click to verify your information with the Ministry of Health and Long-Term Care and the Ministry of Transportation">Verify
+            </button>//-->
+          </div>
+          <div class="Cancel">
+            <a id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacVerifyCancel" href="javascript:void(0);" onclick="javascript:S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.cancelIacForm(event);return false;" title="Select this link to cancel the address change" data-ga-evt="IAC Product Page|Cancel Link Click|Cancel(Verify)" aria-hidden="false">Cancel</a>
+          </div>
+        </div>
+      </section>
+      <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__addressNotes" class="Errors Hide" tabindex="-1" aria-hidden="true"></div>
+      <section *ngIf="voIac.verified == 'Y'" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ5_fs" class="Section Question">
+        <h4 class="Title"><a href="#ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ5_fs">
+          <span id="s2iQ5index">5</span>. Enter your new residential address</a><span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ5_fs_ErrState" class="Offscreen-Text"></span>
+        </h4>
+        <div class="Detail">
+          <div class="Field Center">
+            <button class="Secondary" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__resiAddressBtn" onclick="S2i.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__ResiAddr.addressLookupResiAddress(); return false;" title="Click to enter your new residential address" data-ga-evt="IAC Product Page|Address Button Click|Enter residential address">Enter residential address
+            </button>
+            <br>
+            <span tabindex="0" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacResiAddress_err" class="Error"></span>
+          </div>
+          <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacResiAddressReturned" class="Note Hide" aria-hidden="true"></div>
+          <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacResiAddressJson" name="residentialAddressJson" value="" type="hidden">
+        </div>
+      </section>
+      <section *ngIf="voIac.verified == 'Y'" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ6_fs" class="Section Question">
+        <h4 class="Title">
+          <a href="#ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ6_fs"><span id="s2iQ6index">6</span>. Northern Ontario residency declaration</a>
+          <span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ6_fs_ErrState" class="Offscreen-Text"></span>
+        </h4>
+        <div class="Detail">
+          <div class="Note">
+            <p>The <i>Highway Traffic Act</i> and the <i>Motorized Snow Vehicles Act</i> define ’resident of Northern Ontario’ as a person, other than a corporation, who ordinarily resides in the Territorial District of Algoma, Cochrane, Kenora, Manitoulin, Nipissing, Parry Sound, Rainy River, Sudbury, Timiskaming or Thunder Bay.</p>
+          </div>
+          <div class="Field Left">
+            <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__northern" class="Checkbox">
+              <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__northern" name="northenOntario" onclick="S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.northernCheck()" value="true" type="checkbox">
+              <input name="_northenOntario" value="on" type="hidden"><span class="Label">I declare that I am a resident of Northern Ontario within the meaning of the <i>Highway Traffic Act</i>.</span></label><span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__northern_err" class="Error"></span>
+          </div>
+        </div>
+      </section>
+      <section *ngIf="voIac.verified == 'Y'" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ7_fs" class="Section Question">
+        <h4 class="Title"><a href="#ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ7_fs"><span id="s2iQ7index">7</span>. Enter your mailing address</a><span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacQ7_fs_ErrState" class="Offscreen-Text"></span></h4>
+        <div class="Detail">
+          <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__sameAddressDiv" class="Field Left">
+            <label for="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__sameAddress" class="Checkbox">
+              <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__sameAddress" name="sameAddress" onclick="S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.sameAddressCheck()" value="true" type="checkbox">
+              <input name="_sameAddress" value="on" type="hidden"><span class="Label">My mailing address is the same as my residential address</span></label><span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__sameAddress_err" class="Error"></span>
+            <br>
+          </div>
+          <div class="Field Center">
+            <button class="Secondary" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mailAddressBtn" onclick="S2i.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__MailAddr.addressLookupMailAddress(); return false;" title="Click to enter your new mailing address" data-ga-evt="IAC Product Page|Address Button Click|Enter mailing address">Enter mailing address
+            </button>
+            <br>
+            <span tabindex="0" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacMailAddress_err" class="Error"></span>
+          </div>
+          <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacMailAddressReturned" class="Note Hide" aria-hidden="true"></div>
+          <input id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacMailAddressJson" name="mailingAddressJson" value="" type="hidden">
+        </div>
+      </section>
+      <section *ngIf="voIac.verified == 'Y'" class="Navigation" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__navOrderSection">
+        <div class="Buttons">
+          <div class="Submit">
+            <button class="Primary s2iNavigateAway" type="submit" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacOrder" onclick="javascript:S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.actionSubmit(event, 'addToOrder');return false;" title="Click to review the details of your address change" data-ga-evt="IAC Product Page|Navigation Button Click|Review">Review
+            </button>
+          </div>
+          <div class="Cancel"><a id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__iacOrderCancel" href="javascript:void(0);" onclick="javascript:S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.cancelIacForm(event);return false;" title="Select this link to cancel the address change" data-ga-evt="IAC Product Page|Cancel Link Click|Cancel(Review)">Cancel</a>
+          </div>
+        </div>
+      </section>
+      <section tabindex="-1" role="dialog" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardType" aria-labelledby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardTypeLabel" aria-describedby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardTypeDesc" aria-hidden="true" class="Section Lightbox">
+        <div class="Inside animated">
+          <h3 id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardTypeLabel" tabindex="-1" class="Title">Help with Health Card Selection</h3>
+          <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardTypeDesc" tabindex="-1" class="Detail">
+            <div class="helpBody">
+              <p>Select red and white health card if your health card appears as follows:</p>
+              <p><img src="/sodp/wcm/connect/6a406b44-0b25-4d1d-a099-528832dc122b/1/image7031696513234987491.png?MOD=AJPERES&amp;CACHEID=6a406b44-0b25-4d1d-a099-528832dc122b/1" alt="Sample of an Ontario red and white health card, indicating the location of the health card number and version code. The red and white health card does not have your photo on it." title="Sample of an Ontario red and white health card, indicating the location of the health card number and version code. The red and white health card does not have your photo on it."></p>
+              <p>Select photo health card if your health card appears as follows:</p>
+              <p><img src="/sodp/wcm/connect/6a406b44-0b25-4d1d-a099-528832dc122b/2/image8841170967034395550.png?MOD=AJPERES&amp;CACHEID=6a406b44-0b25-4d1d-a099-528832dc122b/2" alt="Sample of an Ontario photo health card, indicating the location of the health card number and version code. The photo health card is green in colour and has your photo on it, if you are between the ages of 16 and 80." title="Sample of an Ontario photo health card, indicating the location of the health card number and version code. The photo health card is green in colour and has your photo on it, if you are between the ages of 16 and 80."></p>
+            </div>
+          </div>
+          <button class="Close" onclick="javascript:return S2i.Lightbox.Close(this);" style="">Close Help Dialog
+          </button>
+        </div>
+      </section>
+      <section tabindex="-1" role="dialog" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardInfo" aria-labelledby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardInfoLabel" aria-describedby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardInfoDesc" aria-hidden="true" class="Section Lightbox">
+        <div class="Inside animated">
+          <h3 id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardInfoLabel" tabindex="-1" class="Title">Help with entry of health card information</h3>
+          <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpHealthCardInfoDesc" tabindex="-1" class="Detail">
+            <div class="helpBody">
+              <p><strong>Health card number</strong></p>
+              <p>Your 10-digit health card number is found on the front of your health card.</p>
+              <p><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/1/image7184518340377164708.png?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/1" alt="Sample of an Ontario red and white health card, indicating the location of the health card number." title="Sample of an Ontario red and white health card, indicating the location of the health card number."><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/2/image8607242901534880921.png?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/2" alt="Sample of an Ontario photo health card, indicating the location of the health card number." title="Sample of an Ontario photo health card, indicating the location of the health card number."></p>
+              <p>&nbsp;</p>
+              <p><strong>Version code</strong></p>
+              <p>Your alphabetic version code is found on the front of your health card. It is located to the right of your health card number.</p>
+              <p><strong><span style=" text-decoration: underline;">Note:</span></strong> Not all red and white health cards have a version code. If you do not see a 1 or 2-letter version code, leave the field blank.</p>
+              <p><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/3/image590856981177803306.png?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/3" alt="Sample of an Ontario red and white health card, indicating the location of the version code." title="Sample of an Ontario red and white health card, indicating the location of the version code."><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/4/image3889275030861016924.png?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/4" alt="Sample of an Ontario photo health card, indicating the location of the version code." title="Sample of an Ontario photo health card, indicating the location of the version code."></p>
+              <p>&nbsp;</p>
+              <p><strong>Last postal code reported to the Ministry of Health and Long-Term Care</strong></p>
+              <p>The Canadian Postal Code format is ANA NAN, where 'A' is a letter and 'N' is a number (e.g., K7L 3M6).</p>
+              <p>&nbsp;</p>
+              <p><strong>Citizenship or Immigration Document</strong></p>
+              <p>All applications for a photo health card must show an original document that demonstrates a person's Canadian citizenship or immigration status and may be one of the following:</p>
+              <ul>
+                <li>Canadian Birth Certificate</li>
+              </ul>
+              <p><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/5/IAC_Jan8-01-E.jpg?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/5" alt="Birth Certificate" style="border: 0;" width="300" height="300"></p>
+              <ul>
+                <li>Canadian Passport</li>
+              </ul>
+              <p><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/6/IAC_Jan8-02-E.jpg?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/6" alt="Passport" style="border: 0;" width="300" height="300"></p>
+              <ul>
+                <li>Certificate of Canadian Citizenship or Certificate of Naturalization</li>
+              </ul>
+              <p><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/7/IAC_Jan8-03-E.jpg?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/7" alt="Certificate of Naturalization" title="Certificate of Naturalization" border="0" width="300" height="300"><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/8/IAC_Jan8-04-E.jpg?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/8" alt="Certificate of Canadian Citizenship" title="Certificate of Canadian Citizenship" border="0" width="300" height="300"></p>
+              <ul>
+                <li>Work Permit</li>
+              </ul>
+              <p><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/9/IAC_Jan8-05-E.jpg?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/9" alt="Work Permit" title="Work Permit" border="0" width="300" height="300"></p>
+              <ul>
+                <li>Confirmation of Permanent Residence (IMM 5292)</li>
+              </ul>
+              <p><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/10/IAC_Jan8-10-E.jpg?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/10" alt="Confirmation of Permanent Residence (IMM 5292)" title="Confirmation of Permanent Residence (IMM 5292)" border="0" width="300" height="300"></p>
+              <ul>
+                <li>Confirmation of Permanent Residence (IMM 5688)</li>
+              </ul>
+              <p><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/11/IAC_Jan8-09-E.jpg?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/11" alt="Confirmation of Permanent Residence (IMM 5688)" title="Confirmation of Permanent Residence (IMM 5688)" border="0" width="300" height="300"></p>
+              <ul>
+                <li>Permanent Resident Card</li>
+              </ul>
+              <p><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/12/IAC_Jan8-07-E.jpg?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/12" alt="Permanent Resident Card" title="Permanent Resident Card" border="0" width="300" height="300"></p>
+              <ul>
+                <li>Temporary Resident Permit</li>
+              </ul>
+              <p><img src="/sodp/wcm/connect/69244e21-999e-4041-9c3a-c25126cd7c4e/13/IAC_Jan8-08-E.jpg?MOD=AJPERES&amp;CACHEID=69244e21-999e-4041-9c3a-c25126cd7c4e/13" alt="Temporary Resident Permit" title="Temporary Resident Permit" style="border: 0;" width="300" height="300"></p>
+              <p>If you cannot remember which of these documents you used, you will need to change your address by visiting a
+                <font><a href="https://www.services.gov.on.ca/locations/start.do?locale=EN" title="Select this link to locate a ServiceOntario centre. This link will open in a new browser window." target="_blank">ServiceOntario centre</a>.</font>
+              </p>
+              <p>Only the last 4 characters of the citizenship or immigration document are required for entry. For example, if your document number is <strong>12345678</strong>, enter <strong>5678 </strong>as the last 4 characters.</p>
+              <p><strong><span style=" text-decoration: underline;">Note:</span></strong> You may change your child’s address online if you provided a citizenship or immigration document during his/her health card registration process.</p>
+            </div>
+          </div>
+          <button class="Close" onclick="javascript:return S2i.Lightbox.Close(this);" style="">Close Help Dialog
+          </button>
+        </div>
+      </section>
+      <section tabindex="-1" role="dialog" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpDln" aria-labelledby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpDlnLabel" aria-describedby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpDlnDesc" aria-hidden="true" class="Section Lightbox">
+        <div class="Inside animated">
+          <h3 id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpDlnLabel" tabindex="-1" class="Title">Help with entry of driver information</h3>
+          <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__helpDlnDesc" tabindex="-1" class="Detail">
+            <div class="helpBody">
+              <p><strong>Driver’s licence number and issue date</strong></p>
+              <p>Your driver’s licence number is found on the front of your driver’s licence. It is 15 characters long and has a letter at the beginning, followed by a 14-digit number.</p>
+              <p>Your driver’s licence issue date is found on the front of your driver’s licence. It begins with the 4-digit year, followed by the 2-digit month and date.</p>
+              <p><img src="/sodp/wcm/connect/54f3696a-f37f-4040-b816-29759e2700f6/1/image1536803204066877444.png?MOD=AJPERES&amp;CACHEID=54f3696a-f37f-4040-b816-29759e2700f6/1" alt="Sample of an Ontario driver's licence Ontario, indicating the location of the driver's licence number and issue date." title="Sample of an Ontario driver" s="" licence="" ontario,="" indicating="" the="" location="" of="" driver 's="" number="" and="" issue="" date.'=""></p>
+              <p>&nbsp;</p>
+              <p><strong>Registrant identification number (RIN)</strong></p>
+              <p>Your 9-digit registrant identification number is found on the front of your vehicle permit.</p>
+              <p><img src="/sodp/wcm/connect/54f3696a-f37f-4040-b816-29759e2700f6/2/image3740882597366951660.png?MOD=AJPERES&amp;CACHEID=54f3696a-f37f-4040-b816-29759e2700f6/2" alt="Sample of a vehicle registration, indicating the location of the registrant identification number." title="Sample of a vehicle registration, indicating the location of the registrant identification number."></p>
+              <p>&nbsp;</p>
+              <p><strong>Last postal code reported to the Ministry of Transportation</strong></p>
+              <p>The Canadian postal code format is ANA NAN, where 'A' is a letter and 'N' is a number (e.g., K7L 3M6).</p>
+            </div>
+          </div>
+          <button class="Close" onclick="javascript:return S2i.Lightbox.Close(this);" style="">Close Help Dialog
+          </button>
+        </div>
+      </section>
+      <section tabindex="-1" role="dialog" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5_busyWait" aria-labelledby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5_busyWaitLabel" aria-describedby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5_busyWaitDesc" aria-hidden="true" class="Section Lightbox Busy">
+        <div class="Inside animated">
+          <h3 id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5_busyWaitLabel" tabindex="-1" class="Title">Please wait</h3>
+          <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5_busyWaitDesc" tabindex="-1" class="Detail">Processing your request
+          </div>
+        </div>
+      </section>
+      <section tabindex="-1" role="dialog" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5_cancelIacDialog" aria-labelledby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5_cancelIacDialogLabel" aria-describedby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5_cancelIacDialogDesc" aria-hidden="true" class="Section Navigation Lightbox">
+        <div class="Inside animated">
+          <h3 id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5_cancelIacDialogLabel" tabindex="-1" class="Title">Cancel your address change?</h3>
+          <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5_cancelIacDialogDesc" tabindex="-1" class="Detail">
+            <div class="Instruction">Are you sure you want to cancel your change of address? The information entered will be lost. Click Yes to cancel your address change or No to return to the application form.
+            </div>
+            <div class="Buttons">
+              <div class="Cancel">
+                <button class="Secondary" onclick="javascript:return S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.cancelNo(this);">No
+                </button>
+              </div>
+              <div class="Submit">
+                <button class="Warning s2iNavigateAway" onclick="javascript:return S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.cancelYes(this, '/sodp/portal/s2i/!ut/p/b1/ldHbcoIwEAbgZ-EBOlkkBLwMYJBGDjWgwA3DtNZiObRosby92EsdsWb2JjPfP7uzi1KUPMmqhofCCopRWuddsc0PRVPn5fmfkoyqYYAp0WTd4CZQBTgVBE9sjwwgGQGq9miemRZQC-agMgHgk0fzemiAY-CV7UahAtY_-8ONR-FePhmAdgv4jopCFAPOxO7YTPp6yUMX-_3L1Aln2WoHv77sdgFAFyymbuvt24gfTU7WUfX8cyjV77gkvd9a-8wV-me3lN_erY-UEbeQOXudUftL6RaRhMSmzkyK1igdHxffAedzXYDre1yA64X_gZGNevOm2qAqLRljuqwLpwi2knQC1Ls77Q!!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_A5TP4A6718BKC0A30KAS642OI5/act/id=0/p=submitTo=cancelOrder/339323897238/-/#Z7_A5TP4A6718BKC0A30KAS642OI5');">Yes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section tabindex="-1" role="dialog" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mohMsgAndExit" aria-labelledby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mohMsgAndExitTitle" aria-describedby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mohMsgAndExitBody" aria-hidden="true" class="Section Navigation Lightbox">
+        <div class="Inside animated animate">
+          <h3 id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mohMsgAndExitTitle" tabindex="-1" class="Title">ERROR</h3>
+          <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mohMsgAndExitBody" tabindex="-1" class="Detail">
+            <div class="Instruction">
+              <span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mohMsgAndExitBodyMessage"></span>
+            </div>
+            <div class="Buttons">
+              <div class="Submit">
+                <button class="Warning s2iNavigateAway" onclick="javascript:return S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.cancelYes(this, '/sodp/portal/s2i/!ut/p/b1/ldHbcoIwEAbgZ-EBOlkkBLwMYJBGDjWgwA3DtNZiObRosby92EsdsWb2JjPfP7uzi1KUPMmqhofCCopRWuddsc0PRVPn5fmfkoyqYYAp0WTd4CZQBTgVBE9sjwwgGQGq9miemRZQC-agMgHgk0fzemiAY-CV7UahAtY_-8ONR-FePhmAdgv4jopCFAPOxO7YTPp6yUMX-_3L1Aln2WoHv77sdgFAFyymbuvt24gfTU7WUfX8cyjV77gkvd9a-8wV-me3lN_erY-UEbeQOXudUftL6RaRhMSmzkyK1igdHxffAedzXYDre1yA64X_gZGNevOm2qAqLRljuqwLpwi2knQC1Ls77Q!!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_A5TP4A6718BKC0A30KAS642OI5/act/id=0/p=submitTo=cancelOrder/339323897238/-/#Z7_A5TP4A6718BKC0A30KAS642OI5');">OK</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section tabindex="-2" role="dialog" id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mohMsgAndContinue" aria-labelledby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mohMsgAndContinueTitle" aria-describedby="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mohMsgAndContinueBody" aria-hidden="true" class="Section Navigation Lightbox">
+        <div class="Inside animated animate">
+          <h3 id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mohMsgAndContinueTitle" tabindex="-2" class="Title">ERROR</h3>
+          <div id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mohMsgAndContinueBody" tabindex="-2" class="Detail">
+            <div class="Instruction">
+              <span id="ns_Z7_A5TP4A6718BKC0A30KAS642OI5__mohMsgAndContinueBodyMessage"></span>
+            </div>
+            <div class="Buttons">
+              <div class="Submit">
+                <button class="Warning s2iNavigateAway" onclick="javascript:return S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.cancelNo(this);">OK</button>
+              </div>
+              <div class="Cancel">
+                <a class="Cancel" href="#" title="Cancel" onclick="javascript:return S2i.Iac.ns_Z7_A5TP4A6718BKC0A30KAS642OI5__module.cancelYes(this, '/sodp/portal/s2i/!ut/p/b1/ldHbcoIwEAbgZ-EBOlkkBLwMYJBGDjWgwA3DtNZiObRosby92EsdsWb2JjPfP7uzi1KUPMmqhofCCopRWuddsc0PRVPn5fmfkoyqYYAp0WTd4CZQBTgVBE9sjwwgGQGq9miemRZQC-agMgHgk0fzemiAY-CV7UahAtY_-8ONR-FePhmAdgv4jopCFAPOxO7YTPp6yUMX-_3L1Aln2WoHv77sdgFAFyymbuvt24gfTU7WUfX8cyjV77gkvd9a-8wV-me3lN_erY-UEbeQOXudUftL6RaRhMSmzkyK1igdHxffAedzXYDre1yA64X_gZGNevOm2qAqLRljuqwLpwi2knQC1Ls77Q!!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_A5TP4A6718BKC0A30KAS642OI5/act/id=0/p=submitTo=cancelOrder/339323897238/-/#Z7_A5TP4A6718BKC0A30KAS642OI5');">Cancel</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </article>
+</div>
